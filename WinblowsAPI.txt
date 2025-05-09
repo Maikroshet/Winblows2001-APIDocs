@@ -148,7 +148,7 @@ Shell34.ShortcutTools:
   Public Sub RunShortcut(sc As Shortcut, args As String)
     Runs the program associated with the specified Shortcut with the provided arguments.
 
-Public Module OldShell34:
+Shell34.OldShell34:
   Public Function ShowMessageBox(text As String, Optional title As String = "Maikroshet Winblows", Optional cancelButton As Boolean = False)
     Shows a Winblows message box with the specified text and optionally a different title and optionally with the cancel button enabled.
   Public Function ShowMessageBox(text As String, img As Image, Optional title As String = "Maikroshet Winblows", Optional cancelButton As Boolean = False)
